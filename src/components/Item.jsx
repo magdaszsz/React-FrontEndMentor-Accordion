@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import arrow from "./images/arrow.svg";
+import arrow from "../images/arrow.svg";
 
 function Item({ data }) {
   const [show, setShow] = useState(false);
